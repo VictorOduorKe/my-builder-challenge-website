@@ -72,3 +72,4 @@ I’m excited to keep building and exploring more advanced use cases with AWS!
 👉 Once again, here’s the live project: [https://main.dscruezgwt4xm.amplifyapp.com](https://main.dscruezgwt4xm.amplifyapp.com)  
 
 google-site-verification=FMN29ofqnfTaUUefp9pinmUyuSosblbt5QuITezJiIw
+google-site-verification=FMN29ofqnfTaUUefp9pinmUyuSosblbt5QuITezJiIw
