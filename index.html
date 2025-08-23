@@ -4,27 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Victor Oduor - Personal Website</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
 </head>
 <body>
     <main>
         <section class="hero">
-            <img src="profile_image.jpeg" alt="Victor Oduor" class="profile-photo">
+            <img src="./images/profile_image.jpeg" alt="Victor Oduor" class="profile-photo">
             <h1>Victor Oduor</h1>
             <p class="tagline">Cloud Builder & AWS Enthusiast</p>
-            <a href="https://builder.aws.com/community/@vickypaul" target="_blank" class="aws-link">AWS Builder Center Profile</a>
+            <div class="link-area">
+                <a href="https://github.com/VictorOduorKe" target="_blank" class="github-link"><i class="fab fa-github"></i> <span>Victor's GitHub</span></a>
+                <a href="https://www.linkedin.com/in/victor-oduor-ba98641ab" target="_blank" class="linkedin-link"><i class="fab fa-linkedin"></i> <span>Victor's LinkedIn</span></a>
+                <a href="https://builder.aws.com/community/@vickypaul" target="_blank" class="aws-link"><i class="fab fa-aws"></i> <span>Victor's AWS Profile</span></a>
+                <a href="images/my-cv.pdf" class="cv-link"><i class="fas fa-file-pdf"></i> <span>Download CV</span></a>
+            </div>
         </section>
 
         <section class="fun-facts">
             <h3>Fun Facts About Me</h3>
             <div class="facts-grid">
                 <div class="fact-card">
-                    <h4>🚀 Challenge In Progress</h4>
+                    <h4>🚀 Challenge Completed</h4>
                     <p>Currently working on <a href="https://builder.aws.com/content/31C2WxIDSQive7q2Dv5xNFCmYJj/aws-builder-challenge-2-build-a-website-on-the-cloud?trk=86c76c09-e8f4-4138-badc-604ce7bc5d77&sc_channel=el" target="_blank">AWS Builder Challenge #2: Build a website on the cloud!</a></p>
                 </div>
                 <div class="fact-card">
                     <h4>🎯 Learning Goal</h4>
-                    <p>Building my skills one AWS service at a time - S3, CloudFront, and beyond!</p>
+                    <p>Was to build my skills one AWS service at a time - S3, CloudFront, and beyond!</p>
                 </div>
                 <div class="fact-card">
                     <h4>💡 Fun Project</h4>
@@ -35,11 +41,11 @@
 
         <section class="aws-journey">
             <h3>AWS Builder Challenge #2</h3>
-            <p>I'm currently working on the "Build a website on the cloud" challenge, learning to deploy websites using AWS S3 and CloudFront. This site is part of my challenge progress!</p>
+            <p>I finished the "Build a website on the cloud" challenge, learning to deploy websites using AWS S3 and CloudFront. This site is part of my Completed challenge!</p>
             <a href="https://builder.aws.com/content/31C2WxIDSQive7q2Dv5xNFCmYJj/aws-builder-challenge-2-build-a-website-on-the-cloud?trk=86c76c09-e8f4-4138-badc-604ce7bc5d77&sc_channel=el" target="_blank" class="cta-button">View Challenge Details</a>
         </section>
 
-         <section class="fun-facts">
+         <section class="fun-facts ">
             <h3>Skills</h3>
             <div class="facts-grid">
                 <div class="fact-card">
@@ -62,15 +68,36 @@
                         <li>Php</li>
                     </ul>
                 </div>
-                <div class="fact-card">
-                    <h4>💡 Projects</h4>
-                    <ul>
-                        <li>Offline Ict Inventory System</li>
-                        <li>E-commerce (in progress)</li>
-                        <li>Personal Portfolio Website</li>
-                    </ul>
-                </div>
             </div>
+        </section>
+            <section class="projects">
+                <h3>Projects</h3>
+                <ul>
+                    <li>
+                        <h4>Offline ICT Inventory System</h4>
+                        <p>A web application for managing ICT equipment inventory.</p>
+                        <img src="images/inventory.png" alt="Offline ICT Inventory System">
+                        <a href="https://github.com/victoroduorke" target="_blank" class="cta-button">View Project</a>
+                    </li>
+                    <li>
+                        <h4>E-commerce (in progress)</h4>
+                        <p>A full-stack e-commerce application for shoe-base</p>
+                        <img src="images/shoe-base.png" alt="E-commerce">
+                        <a href="https://shoe-base.netlify.app" target="_blank" class="cta-button">View Project</a>
+                    </li>
+                    <li>
+                        <h4>Personal Portfolio Website</h4>
+                        <p>A showcase of my projects and skills.</p>
+                        <img src="images/personal_portfolio.png" alt="Personal Portfolio Website">
+                        <a href="https://main.dscruezgwt4xm.amplifyapp.com/" target="_blank" class="cta-button">View Project</a>
+                    </li>
+                    <li>
+                        <h4>Scholarship application website</h4>
+                        <p>An online scholarship application page built with JS, HTML, and CSS</p>
+                        <img src="images/scholarship.png" alt="Scholarship Application Website">
+                        <a href="https://victoroduorke.github.io/scholarship/" target="_blank" class="cta-button">View Project</a>
+                    </li>
+                </ul>
         </section>
         <!-- CONTACT FORM SECTION - Added for user contact functionality -->
 <section class="contact-form">
