@@ -8,6 +8,16 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
 </head>
 <body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
     <main>
         <section class="hero">
             <img src="./images/profile_image.jpeg" alt="Victor Oduor" class="profile-photo">
@@ -21,7 +31,7 @@
             </div>
         </section>
 
-        <section class="fun-facts">
+        <section class="fun-facts" id="about">
             <h3>Fun Facts About Me</h3>
             <div class="facts-grid">
                 <div class="fact-card">
@@ -39,13 +49,13 @@
             </div>
         </section>
 
-        <section class="aws-journey">
+        <section class="aws-journey" id="aws-journey">
             <h3>AWS Builder Challenge #2</h3>
             <p>I finished the "Build a website on the cloud" challenge, learning to deploy websites using AWS S3 and CloudFront. This site is part of my Completed challenge!</p>
             <a href="https://builder.aws.com/content/31C2WxIDSQive7q2Dv5xNFCmYJj/aws-builder-challenge-2-build-a-website-on-the-cloud?trk=86c76c09-e8f4-4138-badc-604ce7bc5d77&sc_channel=el" target="_blank" class="cta-button">View Challenge Details</a>
         </section>
 
-         <section class="fun-facts ">
+         <section class="fun-facts " id="skills">
             <h3>Skills</h3>
             <div class="facts-grid">
                 <div class="fact-card">
@@ -70,7 +80,7 @@
                 </div>
             </div>
         </section>
-            <section class="projects">
+            <section class="projects" id="projects">
                 <h3>Projects</h3>
                 <ul>
                     <li>
@@ -100,7 +110,7 @@
                 </ul>
         </section>
         <!-- CONTACT FORM SECTION - Added for user contact functionality -->
-<section class="contact-form">
+<section class="contact-form" id="contact">
     <h3>Get In Touch</h3>
     <p>Have a question or want to connect? Send me a message!</p>
     <!-- Form message container for success/error messages -->

@@ -3,7 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+html {
+    scroll-behavior: smooth;
+}
 body {
     font-family: 'Amazon Ember', 'Helvetica Neue', Arial, sans-serif;
     line-height: 1.6;
@@ -12,6 +14,7 @@ body {
     min-height: 100vh;
     position: relative;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 body::before {
@@ -26,6 +29,24 @@ body::before {
         radial-gradient(circle at 80% 20%, rgba(255, 99, 132, 0.15) 0%, transparent 50%),
         radial-gradient(circle at 40% 40%, rgba(54, 162, 235, 0.1) 0%, transparent 50%);
     z-index: -1;
+}
+
+header {
+    background: white;
+    border-bottom: 1px solid #eee;
+    padding: 12px 0;
+}
+header ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    padding: 20px;
+}
+header ul li a {
+    color: #232f3e;
+    text-decoration: none;
+    font-weight: 500;
 }
 
 .aws-link, .github-link, .linkedin-link, .cv-link {
